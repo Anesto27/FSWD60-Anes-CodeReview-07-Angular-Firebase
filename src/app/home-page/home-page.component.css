@@ -1,0 +1,26 @@
+.thumbnail img{
+	width: 320px;
+	height: 250px;
+
+}
+
+.thumbnail{
+	box-shadow: 4px 4px 4px 4px darkgrey;
+	padding-bottom: 50px;
+}
+
+h1{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.thumbnail img:hover{
+	transition: ease-in-out 0.5s;
+	transform:scale(1.2);
+
+}
+
+.container-fluid{
+	padding-top: 50px;
+	padding-bottom: 60px;
+}

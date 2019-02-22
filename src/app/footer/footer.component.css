@@ -1,0 +1,84 @@
+#myFoot{
+	background-color: #222222;
+	color: white;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+#myFoot p{
+	font-size: 12pt
+}
+
+/* animation effect for Icons in the footer */
+
+.icons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.icons li{
+	list-style: none;
+	width: 60px;
+	height: 60px;
+	margin: 0 30px;
+	transform: rotate(-30deg) skew(25deg);
+	background: #222222;
+}
+
+ul li span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transition: 0.5s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 30pt !important;
+}
+
+ul li:hover span:nth-child(5)
+{
+	transform: translate(40px,-40px);
+	opacity: 1;
+}
+ul li:hover span:nth-child(4)
+{
+	transform: translate(30px,-30px);
+	opacity: 0.8;
+}
+ul li:hover span:nth-child(3)
+{
+	transform: translate(20px,-20px);
+	opacity: 0.6;
+}
+ul li:hover span:nth-child(2)
+{
+	transform: translate(10px,-10px);
+	opacity: 0.4;
+}
+ul li:hover span:nth-child(1)
+{
+	transform: translate(0,0);
+	opacity: 0.2;
+}
+
+ul li:nth-child(1) span{
+	background:  #3b5999;
+}
+ul li:nth-child(2) span{
+	  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: background;
+          /* Also define standard property for compatibility */
+          background-clip: background;
+  
+ 
+}
+ul li:nth-child(3) span{
+	background:  #3AA1F2;
+}

@@ -19,6 +19,8 @@
 	height: 100%;
 }
 
+
+
 @keyframes rain{
 	0%{
 		background-position: 0% 0%;
@@ -34,5 +36,11 @@ h1{
 	transform: translateY(-600px);
 	font-size: 50pt;
 	 text-shadow: 4px 4px red;
+	 transition: ease-in 0.5s;
 }
 
+h1:hover{
+	
+	transition: ease-out 0.5s;
+	font-size: 60pt;
+}

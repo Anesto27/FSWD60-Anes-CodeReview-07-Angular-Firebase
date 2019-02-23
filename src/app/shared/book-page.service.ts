@@ -8,7 +8,7 @@ import { AngularFireDatabase, AngularFireList } from "angularfire2/database";
 })
 export class BookPageService {
 
-  constructor(private firebase: AngularFireDatabase) { }
+  constructor(public firebase: AngularFireDatabase) { }
     bookList: AngularFireList<any>;
 
   form = new FormGroup({

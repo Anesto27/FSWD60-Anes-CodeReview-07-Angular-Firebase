@@ -9,7 +9,7 @@ export class BookListComponent implements OnInit {
 customerArray =[];
 showDeletedMessage : boolean;
 searchText:string = "";
-  constructor(private BookPageService: BookPageService) { }
+  constructor(public BookPageService: BookPageService) { }
 
   ngOnInit() {
   	this.BookPageService.getBookPage().subscribe(

@@ -8,7 +8,7 @@ import { BookPageService } from "../shared/book-page.service";
 })
 export class BookPageComponent implements OnInit {
 
-  constructor(private BookPageService:BookPageService) { }
+  constructor(public BookPageService:BookPageService) { }
   submitted: boolean;
   formControls = this.BookPageService.form.controls;
   showSuccessMessage: boolean;

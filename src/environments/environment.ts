@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  firebaseConfig : {
+   firebaseConfig : {
     apiKey: "AIzaSyB9uJdYw-Xktmh78S4Z93n8phBNPSqobkQ",
     authDomain: "codereview07.firebaseapp.com",
     databaseURL: "https://codereview07.firebaseio.com",
@@ -12,6 +12,9 @@ export const environment = {
     storageBucket: "codereview07.appspot.com",
     messagingSenderId: "758524494360"
 }
+
+  
+
 };
 
 /*

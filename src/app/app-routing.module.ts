@@ -10,7 +10,7 @@ const routes: Routes = [
 },
 {
         path:"Important numbers",component: ImportantComponent
-}
+},
 {
         path:"My phone book",component: BookPageComponent
 }

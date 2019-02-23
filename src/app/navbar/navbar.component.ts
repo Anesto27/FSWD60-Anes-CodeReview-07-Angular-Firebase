@@ -5,7 +5,7 @@ templateUrl: './navbar.component.html',
 styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
- private projectName:string;
+ public projectName:string;
 constructor() {
   this.projectName = "Phonebook Agency";
 }
